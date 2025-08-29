@@ -1,0 +1,11 @@
+/* City card hover effect */
+.city-card {
+    transition: all 0.3s ease;
+    /* background: var(--bs-body-tertiary); */
+}
+
+.city-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}

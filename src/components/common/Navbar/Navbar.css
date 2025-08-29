@@ -1,0 +1,69 @@
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Brand logo Design */
+.brand-logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: var(--bs-body-color);
+    transition: transform 0.25s ease, color 0.25s ease;
+    text-decoration: none;
+}
+
+.brand-logo:hover {
+    transform: translateY(-2px);
+    color: var(--bs-primary);
+}
+
+/* Animated icon */
+.sun-icon {
+    font-size: 1.6rem;
+    color: var(--bs-primary);
+    animation: floatIcon 3s ease-in-out infinite;
+}
+
+/* Brand text */
+.brand-text {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: inherit;
+}
+
+.brand-text .highlight {
+    color: var(--bs-primary);
+}
+
+/* Floating animation */
+@keyframes floatIcon {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Custom Toggler Button */
+.custom-toggler {
+    border: none;
+    background: none;
+    font-size: 1.6rem;
+    color: var(--bs-body-color);
+    transition: transform 0.2s ease-in-out;
+}
+
+.custom-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-toggler.open {
+    transform: rotate(90deg);
+}

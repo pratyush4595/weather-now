@@ -1,0 +1,24 @@
+/* Gradient Heading */
+.text-gradient {
+    background: linear-gradient(90deg, #007bff, #00c9a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Gradient Button */
+.btn-gradient {
+    background: linear-gradient(90deg, #1e88e5, #43a047);
+    color: #fff !important;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(90deg, #1565c0, #2e7d32);
+    transform: translateY(-2px);
+}
+
+/* Cards */
+.card {
+    border-radius: 1rem !important;
+}

@@ -1,0 +1,27 @@
+.no-data-alert {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+    border: 1px dashed var(--bs-border-color);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.no-data-icon {
+    font-size: 2.5rem;
+    color: var(--bs-danger);
+    animation: pulseIcon 1.8s infinite;
+}
+
+@keyframes pulseIcon {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+}

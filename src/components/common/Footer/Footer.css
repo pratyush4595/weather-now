@@ -1,0 +1,56 @@
+.footer {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-brand {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.footer-brand:hover {
+  color: var(--bs-primary);
+}
+
+/* Brand icon animation */
+.sun-icon {
+  font-size: 1.4rem;
+  color: var(--bs-primary);
+  animation: floatIcon 3s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.brand-text .highlight {
+  color: var(--bs-primary);
+}
+
+.footer-links a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.25s ease;
+}
+
+.footer-links a:hover {
+  color: var(--bs-primary);
+}
+
+.social-links a {
+  font-size: 1.3rem;
+  color: inherit;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.social-links a:hover {
+  color: var(--bs-primary);
+  transform: translateY(-2px);
+}

@@ -1,0 +1,11 @@
+/* Highlight cards */
+.highlight-card {
+    background: var(--bs-body-bg);
+    transition: all 0.3s ease;
+    border: 1px solid #e9ecef;
+}
+
+.highlight-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

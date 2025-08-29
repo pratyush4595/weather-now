@@ -1,0 +1,41 @@
+.about-page {
+    font-family: "Poppins", sans-serif;
+    color: var(--bs-body-color);
+}
+
+.about-icon {
+    font-size: 3rem;
+    color: var(--bs-primary);
+    animation: floatIcon 3s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.about-intro {
+    max-width: 650px;
+}
+
+.about-card {
+    background-color: var(--bs-body-bg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.about-card h5 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}

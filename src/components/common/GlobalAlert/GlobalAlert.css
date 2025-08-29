@@ -1,0 +1,38 @@
+/*Alert Container*/
+.alert-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Alert */
+.custom-alert {
+    position: absolute;
+    top: 20px;
+    /* Position from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+    /* Higher z-index to ensure visibility */
+    width: fit-content;
+    max-width: 90%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-alert .bi-check-circle-fill {
+    font-size: 1.5rem;
+}
+
+.custom-alert .bi-exclamation-circle-fill {
+    font-size: 1.5rem;
+}
+
+.custom-alert h6 {
+    font-weight: 600;
+}
+
+.custom-alert p {
+    font-size: 0.875rem;
+    margin: 0;
+}

@@ -1,0 +1,28 @@
+.metric-card {
+    background: var(--bs-body-bg);
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.metric-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.metric-icon {
+    font-size: 2rem;
+    opacity: 0.85;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--bs-secondary-color);
+    margin-bottom: 0.3rem;
+}
+
+.metric-value {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--bs-body-color);
+}

@@ -1,0 +1,7 @@
+.chart-wrapper {
+    transition: transform 0.3s ease;
+}
+
+.chart-wrapper:hover {
+    transform: scale(1.02);
+}
